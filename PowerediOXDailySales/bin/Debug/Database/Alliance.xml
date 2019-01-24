@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<Alliance>
+  <xs:schema id="Alliance" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Alliance" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0033__x002F_19_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="test2" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_14_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="test2" type="xs:int" default="0" />
+              <xs:attribute name="product3" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_4_x002F_2016">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Agent_x0020_Total" type="xs:string" minOccurs="0" msdata:Ordinal="4" />
+              </xs:sequence>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="test2" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_5_x002F_2016">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Agent_x0020_Total" type="xs:string" minOccurs="0" msdata:Ordinal="5" />
+              </xs:sequence>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="test2" type="xs:int" default="0" />
+              <xs:attribute name="asd" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_18_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="test2" type="xs:int" default="0" />
+              <xs:attribute name="asd" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0033__x002F_19_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+      <xs:unique name="_x0033__x002F_4_x002F_2016_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0033__x002F_4_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+      <xs:unique name="_x0033__x002F_5_x002F_2016_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0033__x002F_5_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+      <xs:unique name="_x0033__x002F_18_x002F_2016_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0033__x002F_18_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <_x0033__x002F_19_x002F_2016 Agent="Test" Product1="5" Product2="2" test2="6" />
+  <_x0033__x002F_19_x002F_2016 Agent="Testa" Product1="4" Product2="3" test2="5" />
+  <_x0033__x002F_19_x002F_2016 Agent="Tesadsfsd" Product1="78" Product2="2" test2="123" />
+  <_x0033__x002F_14_x002F_2016 Agent="junel" Product1="2" Product2="5" test2="7" product3="8" />
+  <_x0033__x002F_14_x002F_2016 Agent="lee" Product1="5" Product2="5" test2="9" product3="7" />
+  <_x0033__x002F_14_x002F_2016 Agent="jun" Product1="5" Product2="5" test2="3" product3="3" />
+  <_x0033__x002F_4_x002F_2016 Agent="Total Sales" Product1="0" Product2="0" test2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0033__x002F_4_x002F_2016>
+  <_x0033__x002F_5_x002F_2016 Agent="Test" Product1="123" Product2="0" test2="0" asd="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0033__x002F_5_x002F_2016>
+  <_x0033__x002F_5_x002F_2016 Agent="Testa" Product1="0" Product2="52" test2="32" asd="0">
+    <Agent_x0020_Total>84</Agent_x0020_Total>
+  </_x0033__x002F_5_x002F_2016>
+  <_x0033__x002F_5_x002F_2016 Agent="Tesadsfsd" Product1="0" Product2="0" test2="0" asd="67">
+    <Agent_x0020_Total>67</Agent_x0020_Total>
+  </_x0033__x002F_5_x002F_2016>
+  <_x0033__x002F_5_x002F_2016 Agent="dsa" Product1="1" Product2="23" test2="10" asd="5">
+    <Agent_x0020_Total>39</Agent_x0020_Total>
+  </_x0033__x002F_5_x002F_2016>
+  <_x0033__x002F_5_x002F_2016 Agent="Total Sales" Product1="1" Product2="75" test2="42" asd="72">
+    <Agent_x0020_Total>190</Agent_x0020_Total>
+  </_x0033__x002F_5_x002F_2016>
+</Alliance>

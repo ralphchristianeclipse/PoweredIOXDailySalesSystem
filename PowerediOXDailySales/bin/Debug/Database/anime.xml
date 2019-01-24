@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<anime>
+  <xs:schema id="anime" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="anime" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0033__x002F_2_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="costume" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_4_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="costume" type="xs:int" default="0" />
+              <xs:attribute name="perfume" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_5_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="costume" type="xs:int" default="0" />
+              <xs:attribute name="perfume" type="xs:int" default="0" />
+              <xs:attribute name="Secret" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_6_x002F_2016">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Agent_x0020_Total" type="xs:string" minOccurs="0" msdata:Ordinal="6" />
+              </xs:sequence>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+              <xs:attribute name="costume" type="xs:int" default="0" />
+              <xs:attribute name="perfume" type="xs:int" default="0" />
+              <xs:attribute name="Secret" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0033__x002F_6_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <_x0033__x002F_2_x002F_2016 Agent="Kyo-chan" Product1="0" Product2="0" costume="0" />
+  <_x0033__x002F_4_x002F_2016 Agent="Scent" Product1="4" Product2="6" costume="7" perfume="7" />
+  <_x0033__x002F_4_x002F_2016 Agent="Kyoko" Product1="3" Product2="5" costume="6" perfume="8" />
+  <_x0033__x002F_5_x002F_2016 Agent="Victoria" Product1="0" Product2="0" costume="0" perfume="0" Secret="0" />
+  <_x0033__x002F_6_x002F_2016 Agent="Victoria" Product1="0" Product2="0" costume="0" perfume="0" Secret="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0033__x002F_6_x002F_2016>
+  <_x0033__x002F_6_x002F_2016 Agent="Total Sales" Product1="0" Product2="0" costume="0" perfume="0" Secret="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0033__x002F_6_x002F_2016>
+</anime>

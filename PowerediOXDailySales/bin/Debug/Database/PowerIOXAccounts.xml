@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<PowerIOXAccounts>
+  <xs:schema id="PowerIOXAccounts" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PowerIOXAccounts" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Accounts">
+            <xs:complexType>
+              <xs:attribute name="Username" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Password" type="xs:string" default="" />
+              <xs:attribute name="ManagerName" type="xs:string" default="" />
+              <xs:attribute name="SecretQuestion" type="xs:string" default="" />
+              <xs:attribute name="SecretAnswer" type="xs:string" default="" />
+              <xs:attribute name="Status" type="xs:string" default="" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Accounts" />
+        <xs:field xpath="@Username" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Accounts Username="admin" Password="a" ManagerName="a" SecretQuestion="What is your ambition?" SecretAnswer="a" Status="admin" />
+  <Accounts Username="Alliance" Password="1" ManagerName="Heyou" SecretQuestion="Who is your first crush?" SecretAnswer="1" Status="Offline" />
+  <Accounts Username="junely" Password="junel" ManagerName="rhen" SecretQuestion="Who is your first crush?" SecretAnswer="aa" Status="Offline" />
+  <Accounts Username="asd" Password="asd" ManagerName="Otaps" SecretQuestion="Who is your first crush?" SecretAnswer="akoikawsila" Status="Offline" />
+  <Accounts Username="anime" Password="anime" ManagerName="anime" SecretQuestion="Who is your first crush?" SecretAnswer="ako" Status="Online" />
+  <Accounts Username="Test" Password="test" ManagerName="test" SecretQuestion="Who is your first crush?" SecretAnswer="test" Status="Offline" />
+  <Accounts Username="japan" Password="japan" ManagerName="neko" SecretQuestion="Who is your first crush?" SecretAnswer="japan" Status="Offline" />
+  <Accounts Username="Neko" Password="neko" ManagerName="neko" SecretQuestion="Why do you do this?" SecretAnswer="neko" Status="Offline" />
+</PowerIOXAccounts>

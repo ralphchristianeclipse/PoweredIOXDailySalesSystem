@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<PowerIOXAccounts>
+  <xs:schema id="PowerIOXAccounts" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PowerIOXAccounts" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Accounts">
+            <xs:complexType>
+              <xs:attribute name="Username" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Password" type="xs:string" default="" />
+              <xs:attribute name="ManagerName" type="xs:string" default="" />
+              <xs:attribute name="SecretQuestion" type="xs:string" default="" />
+              <xs:attribute name="SecretAnswer" type="xs:string" default="" />
+              <xs:attribute name="Status" type="xs:string" default="" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Accounts" />
+        <xs:field xpath="@Username" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Accounts Username="admin" Password="admin" ManagerName="admin" SecretQuestion="admin" SecretAnswer="admin" Status="admin" />
+  <Accounts Username="junel" Password="lee" ManagerName="junel" SecretQuestion="Who is your first crush?" SecretAnswer="rhen" Status="Offline" />
+  <Accounts Username="rhen" Password="rhen" ManagerName="rhen" SecretQuestion="Who is your first crush?" SecretAnswer="meow" Status="Offline" />
+</PowerIOXAccounts>

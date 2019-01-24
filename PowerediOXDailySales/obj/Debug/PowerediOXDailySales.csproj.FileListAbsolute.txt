@@ -1,0 +1,15 @@
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\bin\Debug\PowerediOXDailySales.exe.config
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\bin\Debug\PowerediOXDailySales.exe
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\bin\Debug\PowerediOXDailySales.pdb
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\bin\Debug\DevComponents.DotNetBar2.dll
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\bin\Debug\DevComponents.DotNetBar2.xml
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.MainForm.resources
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.Properties.Resources.resources
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.SplashScreen.resources
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.csproj.GenerateResource.Cache
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.exe
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.pdb
+F:\NetBook Files\IT\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.csprojResolveAssemblyReference.cache
+C:\Users\Juzel Bernardo\Desktop\PowerediOXDailySales 4.0\PowerediOXDailySales\bin\Debug\PowerediOXDailySales.exe.config
+C:\Users\Juzel Bernardo\Desktop\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.exe
+C:\Users\Juzel Bernardo\Desktop\PowerediOXDailySales 4.0\PowerediOXDailySales\obj\Debug\PowerediOXDailySales.pdb

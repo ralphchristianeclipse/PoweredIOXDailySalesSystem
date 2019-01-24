@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<junely>
+  <xs:schema id="junely" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="junely" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0032__x002F_3_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0032__x002F_4_x002F_2016">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Agent_x0020_Total" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+              </xs:sequence>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="_x0033__x002F_1_x002F_2016">
+            <xs:complexType>
+              <xs:attribute name="Agent" type="xs:string" msdata:DefaultValue="" use="required" />
+              <xs:attribute name="Product1" type="xs:int" default="0" />
+              <xs:attribute name="Product2" type="xs:int" default="0" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0032__x002F_3_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+      <xs:unique name="_x0032__x002F_4_x002F_2016_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0032__x002F_4_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+      <xs:unique name="_x0033__x002F_1_x002F_2016_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//_x0033__x002F_1_x002F_2016" />
+        <xs:field xpath="@Agent" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <_x0032__x002F_3_x002F_2016 Agent="A" Product1="0" Product2="0" />
+  <_x0032__x002F_3_x002F_2016 Agent="B" Product1="0" Product2="0" />
+  <_x0032__x002F_3_x002F_2016 Agent="C" Product1="0" Product2="0" />
+  <_x0032__x002F_3_x002F_2016 Agent="D" Product1="0" Product2="0" />
+  <_x0032__x002F_3_x002F_2016 Agent="E" Product1="0" Product2="0" />
+  <_x0032__x002F_4_x002F_2016 Agent="A" Product1="0" Product2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0032__x002F_4_x002F_2016>
+  <_x0032__x002F_4_x002F_2016 Agent="B" Product1="0" Product2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0032__x002F_4_x002F_2016>
+  <_x0032__x002F_4_x002F_2016 Agent="C" Product1="0" Product2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0032__x002F_4_x002F_2016>
+  <_x0032__x002F_4_x002F_2016 Agent="D" Product1="0" Product2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0032__x002F_4_x002F_2016>
+  <_x0032__x002F_4_x002F_2016 Agent="E" Product1="0" Product2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0032__x002F_4_x002F_2016>
+  <_x0032__x002F_4_x002F_2016 Agent="Total Sales" Product1="0" Product2="0">
+    <Agent_x0020_Total>0</Agent_x0020_Total>
+  </_x0032__x002F_4_x002F_2016>
+</junely>
